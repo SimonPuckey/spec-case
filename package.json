@@ -22,6 +22,7 @@
   },
   "scripts": {
     "transpile": "babel -d dist/ src/",
-    "prepublish": "npm run transpile"
+    "prepublish": "npm run transpile",
+    "test": "./node_modules/.bin/mocha --reporter spec specs"
   }
 }

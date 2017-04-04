@@ -1,6 +1,5 @@
-import chai from 'chai';
-import specCase from '../src/index';
-var expect = chai.expect;
+const expect = require('chai').expect;
+const specCase = require('../src/index');
 
 //TODO: try to use es6 syntax in tests where possible eg. ()=>{}, let etc
 describe('when testing specCase',() => {
